@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description"
+    content="Nizakat Ali is a frontend web developer and WordPress specialist building thoughtful, responsive digital experiences.">
+  <title>Nizakat Ali — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nizakat Ali, home"><span class="brand-mark">N</span><span>Nizakat<span
+            class="brand-accent">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="primary-navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="primary-navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path
+              d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42">
+            </path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Home section -->
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <p class="hero-intro">Hello, I'm</p>
+          <h1 id="hero-title">Nizakat <span>Ali</span></h1>
+          <p class="hero-role">I build <span class="typing-text" aria-label="Frontend Web Developer">Frontend Web
+              Developer</span><span class="typing-cursor" aria-hidden="true">|</span></p>
+          <p class="hero-description">I turn ideas into fast, accessible, and memorable web experiences—with clean code
+            and a thoughtful eye for detail.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Work <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="assets/Nizakat-Ali-CV.pdf" download>Download CV <span
+                aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a class="social-link" href="https://github.com/nizakataliofficial-rgb" target="_blank" rel="noreferrer" aria-label="GitHub"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6s-1.2-.4-3.9 1.4a13.4 13.4 0 0 0-7.1 0C5 1.1 3.8 1.5 3.8 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7a3.4 3.4 0 0 0-.9 2.7V22">
+                </path>
+              </svg><span>GitHub</span></a>
+            <a class="social-link" href="https://www.linkedin.com/in/nizakat-ali-a8415640a/" target="_blank" rel="noreferrer"
+              aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg><span>LinkedIn</span></a>
+            <a class="social-link" href="https://wa.me/+923283014874" target="_blank" rel="noreferrer" aria-label="WhatsApp"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20l1.1-5.3A8.4 8.4 0 1 1 21 11.5Z"></path>
+                <path d="M8.5 8.5c.3 2 2.5 4.2 4.5 4.8l1.1-1.1 2 .9-.3 1.7c-3.3 1.1-7.9-3.5-6.8-6.8l1.7-.3.9 2-1.1 1.1">
+                </path>
+              </svg><span>WhatsApp</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Developer illustration">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-code-card glass-card">
+            <div class="code-window-bar"><span></span><span></span><span></span><code>nizakat.js</code></div>
+            <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">'Nizakat Ali'</span>,
+  focus: <span class="code-green">'the web'</span>,
+  mindset: <span class="code-green">'keep building'</span>,
+  creativity: <span class="code-blue">true</span>
+};
+
+developer.<span class="code-yellow">create</span>();<span class="code-cursor">_</span></code></pre>
+          </div>
+          <div class="floating-chip chip-code"><span class="chip-icon">&lt;/&gt;</span> Clean code</div>
+          <div class="floating-chip chip-responsive"><span class="chip-icon">✳</span> Responsive by design</div>
+          <div class="hero-visual-label"><span class="status-dot"></span> Turning ideas into interfaces</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <!-- About section -->
+    <section class="section section-muted" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Building for the <span>better web.</span></h2>
+          <p>Curious by nature. Developer by choice. Always improving.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-art glass-card reveal">
+            <div class="avatar-orbit avatar-orbit-a"></div>
+            <div class="avatar-orbit avatar-orbit-b"></div>
+            <div class="avatar-frame">
+              <img class="profile-image" src="assets/nizakat-profile.jpg" alt="Nizakat Ali">
+              <span class="avatar-caption">Your next web partner</span>
+            </div>
+            <div class="about-art-badge"><span>✦</span>
+              <div><strong>Crafted with care</strong><small>One detail at a time</small></div>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="about-kicker">From first sketch to final pixel</p>
+            <h3>Good websites should feel as good as they work.</h3>
+            <p>My journey into web development started with a simple curiosity: how do the websites we love come to
+              life? That curiosity grew into a passion for building accessible, responsive experiences that help people
+              get where they want to go.</p>
+            <p>I care about clean, maintainable code, the small details that make a product feel polished, and solving
+              problems with a calm, practical mindset. Whether I'm shaping a layout or learning a new tool, I bring
+              focus and an eagerness to keep getting better.</p>
+            <div class="stats-grid">
+              <div class="stat-card glass-card"><strong>17</strong><small>Projects published</small></div>
+              <div class="stat-card glass-card"><strong>Modern</strong><small>Tech stack</small></div>
+              <div class="stat-card glass-card"><strong>100<span>%</span></strong><small>Responsive design</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">DEVELOPMENT &amp; PROFESSIONAL SKILLS</p>
+          <h2 id="skills-title">Skills shaped by <span>hands-on experience.</span></h2>
+          <p>Frontend projects alongside the healthcare, security, and administrative experience in my CV.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass-card reveal">
+            <div class="skill-card-heading"><span class="skill-icon">&lt;/&gt;</span>
+              <div>
+                <h3>Frontend Development</h3>
+                <p>Practiced across portfolio projects</p>
+              </div>
+            </div>
+            <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive
+                Design</span><span>Interactive Web Apps</span><span>GitHub Pages</span></div>
+          </article>
+          <article class="skill-card glass-card reveal">
+            <div class="skill-card-heading"><span class="skill-icon">{ }</span>
+              <div>
+                <h3>Administration &amp; Office</h3>
+                <p>Experience listed in my CV</p>
+              </div>
+            </div>
+            <div class="skill-tags"><span>MS Office · 5 years</span><span>Records Management · 5 years</span><span>Time
+                Management · 4 years</span><span>Applications · 4 years</span></div>
+          </article>
+          <article class="skill-card glass-card reveal">
+            <div class="skill-card-heading"><span class="skill-icon">✳</span>
+              <div>
+                <h3>Healthcare &amp; Security</h3>
+                <p>Skills and durations from my CV</p>
+              </div>
+            </div>
+            <div class="skill-tags"><span>Medical Assistance · 3 years</span><span>First Aid · 3 years</span><span>Emergency
+                Response · 2 years</span><span>Security · 1.5 years</span><span>Weapon Protection · 1 year</span></div>
+          </article>
+        </div>
+        <div class="skill-note reveal"><span class="skill-note-mark">✦</span>
+          <p>My frontend skills come from building and publishing practical projects. <span>Professional skill durations
+              are taken from my CV.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section section-muted" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2 id="projects-title">A few things I've <span>put into the world.</span></h2>
+          <p>Small ideas, big learning curves, and a lot of care in every detail.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All
+            <span>17</span></button>
+          <button class="filter-button" type="button" data-filter="web-apps" aria-pressed="false">Web Apps
+            <span>09</span></button>
+          <button class="filter-button" type="button" data-filter="websites" aria-pressed="false">Websites &amp;
+            Stores <span>08</span></button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--chat">
+              <img class="project-thumbnail" src="assets/project-rkc-chat-app.png" alt="RKC Chat App live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">01 / MESSAGING</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>RKC Chat App</h3><span class="project-index">01</span>
+              </div>
+              <p>A chat app concept for starting conversations, sharing messages, and keeping everyday communication in one place.</p>
+              <div class="project-tags"><span>Chat App</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/RCK-CHAT-APP/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--pizza">
+              <img class="project-thumbnail" src="assets/project-rajas-pizza-corner.png" alt="Raja's Pizza Corner live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">02 / RESTAURANT</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Raja's Pizza Corner</h3><span class="project-index">02</span>
+              </div>
+              <p>A restaurant website concept showcasing pizza options, meal deals, and clear ways for customers to place an order.</p>
+              <div class="project-tags"><span>Restaurant</span><span>Website</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Raja-s-Pizza-Pizza-Corner-/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--accounting">
+              <img class="project-thumbnail" src="assets/project-nr-city-accounting.png" alt="NR City Accounting live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">03 / BUSINESS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>NR City Accounting</h3><span class="project-index">03</span>
+              </div>
+              <p>A professional accounting website introducing financial services and helping clients find the support their business needs.</p>
+              <div class="project-tags"><span>Accounting</span><span>Business Site</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/NR-City-Accounting---Responsive-Website/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--academy">
+              <img class="project-thumbnail" src="assets/project-icoder-academy.png" alt="iCoder Academy live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">04 / EDUCATION</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>iCoder Academy</h3><span class="project-index">04</span>
+              </div>
+              <p>An academy website concept presenting coding courses, learning resources, and clear paths for students to begin learning.</p>
+              <div class="project-tags"><span>Education</span><span>Website</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/iCoder-Academy-Code-With-Nizakat-Ali-/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--fashion">
+              <img class="project-thumbnail" src="assets/project-raja-step-footwear.png" alt="Raja Step Footwear live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">05 / FOOTWEAR</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Raja Step Footwear</h3><span class="project-index">05</span>
+              </div>
+              <p>A footwear storefront concept for browsing styles, viewing product details, and discovering new arrivals.</p>
+              <div class="project-tags"><span>Footwear</span><span>Online Store</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Raja_Steps-Footwear/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--player">
+              <img class="project-thumbnail" src="assets/project-zeex-player.png" alt="Zeex Player live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">06 / MEDIA PLAYER</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Zeex Player</h3><span class="project-index">06</span>
+              </div>
+              <p>A browser-based media player concept for enjoying audio and video through a simple, focused playback interface.</p>
+              <div class="project-tags"><span>Media</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Zeex-Player-Primium-Audio-Video-Player/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--timer">
+              <img class="project-thumbnail" src="assets/project-focus-timer-clock.png" alt="Focus Timer Clock live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">07 / PRODUCTIVITY</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Focus Timer Clock</h3><span class="project-index">07</span>
+              </div>
+              <p>A focus timer concept that helps break work into timed sessions and makes it easier to stay on task.</p>
+              <div class="project-tags"><span>Timer</span><span>Productivity</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/-Focus-Timer-Clock-/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--education">
+              <img class="project-thumbnail" src="assets/project-university-management-portal.png" alt="University Management Portal live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">08 / MANAGEMENT</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>University Management Portal</h3><span class="project-index">08</span>
+              </div>
+              <p>A university portal concept for organizing student, course, and campus information in one convenient place.</p>
+              <div class="project-tags"><span>Education</span><span>Portal</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/UNI-Portal/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--weather">
+              <img class="project-thumbnail" src="assets/project-weather-app.png" alt="Weather App live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">09 / WEATHER</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Weather App</h3><span class="project-index">09</span>
+              </div>
+              <p>A weather app concept for checking current conditions and getting a quick, easy-to-read local forecast.</p>
+              <div class="project-tags"><span>Weather</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Weather-App/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--coffee">
+              <img class="project-thumbnail" src="assets/project-coffee-nizakat.png" alt="Coffee Nizakat live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">10 / COFFEE SHOP</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Coffee Nizakat</h3><span class="project-index">10</span>
+              </div>
+              <p>A coffee shop website concept featuring the menu, signature drinks, and a welcoming introduction to the café.</p>
+              <div class="project-tags"><span>Café</span><span>Website</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Coffee_Nizakat/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--travel">
+              <img class="project-thumbnail" src="assets/project-travel-with-nizakat.png" alt="Travel With Nizakat live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">11 / TRAVEL</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Travel With Nizakat</h3><span class="project-index">11</span>
+              </div>
+              <p>A travel website concept for exploring destinations, discovering trip ideas, and planning a memorable getaway.</p>
+              <div class="project-tags"><span>Travel</span><span>Website</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Nizakat-Travel/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--commerce">
+              <img class="project-thumbnail" src="assets/project-ck-e-commerce.png" alt="CK E Commerce live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">12 / E-COMMERCE</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>CK E Commerce</h3><span class="project-index">12</span>
+              </div>
+              <p>An e-commerce storefront concept for exploring products, browsing categories, and finding items to shop.</p>
+              <div class="project-tags"><span>E-Commerce</span><span>Online Store</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/CK-E-Commerce/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--calculator">
+              <img class="project-thumbnail" src="assets/project-calculator.png" alt="Calculator live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">13 / CALCULATOR</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Calculator</h3><span class="project-index">13</span>
+              </div>
+              <p>A straightforward calculator concept for carrying out everyday arithmetic with a clean, easy-to-use interface.</p>
+              <div class="project-tags"><span>Utility</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Calculator/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--movies">
+              <img class="project-thumbnail" src="assets/project-na-movie-box.png" alt="NA Movie Box live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">14 / MOVIES</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>NA Movie Box</h3><span class="project-index">14</span>
+              </div>
+              <p>A movie discovery interface concept for browsing titles and finding something new to watch.</p>
+              <div class="project-tags"><span>Entertainment</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/NA-Movie-Box/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="websites">
+            <div class="project-visual project-visual--home">
+              <img class="project-thumbnail" src="assets/project-pro-home-fix.png" alt="Pro Home Fix live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">15 / HOME SERVICES</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Pro Home Fix</h3><span class="project-index">15</span>
+              </div>
+              <p>A home repair services website concept that introduces available services and helps homeowners find assistance.</p>
+              <div class="project-tags"><span>Home Services</span><span>Website</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/pro-Home-fix/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--typing">
+              <img class="project-thumbnail" src="assets/project-typing-master-speed-count.png" alt="Typing Master and Speed Count live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">16 / TYPING PRACTICE</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Typing Master and Speed Count</h3><span class="project-index">16</span>
+              </div>
+              <p>A typing practice concept that tracks speed and helps users build accuracy through focused exercises.</p>
+              <div class="project-tags"><span>Typing</span><span>Practice App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Typing-Speed-Test/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card glass-card reveal" data-category="web-apps">
+            <div class="project-visual project-visual--resume">
+              <img class="project-thumbnail" src="assets/project-dynamic-resume-builder.png" alt="Dynamic Resume Builder live website screenshot" loading="lazy" decoding="async">
+              <span class="visual-caption">17 / RESUME BUILDER</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Dynamic Resume Builder</h3><span class="project-index">17</span>
+              </div>
+              <p>A resume builder concept for organizing personal details and experience into a polished, shareable CV.</p>
+              <div class="project-tags"><span>Resume</span><span>Web App</span></div>
+              <a class="project-demo-link" href="https://nizakataliofficial-rgb.github.io/Dynamic-Resume-Builder/" target="_blank" rel="noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE ROAD SO FAR</p>
+          <h2 id="experience-title">Learning at every <span>turn.</span></h2>
+          <p>Every chapter has taught me something worth bringing to the next.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta"><span>WEB DEVELOPMENT</span><span>PROJECT-BASED EXPERIENCE</span></div>
+              <h3>Frontend Web Developer</h3>
+              <p class="timeline-place">Independent Projects</p>
+              <p>Designed, built, and published 17 web projects, including responsive business websites, online stores,
+                and interactive apps. Focused on clear interfaces, mobile-friendly layouts, and useful functionality.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta"><span>SECURITY</span><span>STARTED 2025-10-15</span></div>
+              <h3>Security Guard</h3>
+              <p class="timeline-place">Bright Security Agency, Pakistan</p>
+              <p>Monitored premises, responded to incidents, and helped maintain a secure environment for personnel and
+                visitors.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta"><span>PAKISTAN ARMY</span><span>2025-05-22 – 2025-10-28</span></div>
+              <h3>GD Soldier</h3>
+              <p class="timeline-place">Pakistan Army, Pakistan</p>
+              <p>Completed rigorous training focused on operational readiness and adapting to demanding environments.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta"><span>HEALTHCARE</span><span>2022 – 2025</span></div>
+              <h3>Nursing Assistant</h3>
+              <p class="timeline-place">Chandka Medical College Hospital Larkana, Pakistan · 2022-02-07 – 2025-03-15</p>
+              <p>Assisted nursing staff in delivering patient care, following care protocols, and supporting patient
+                comfort and safety.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section section-muted" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">LET'S MAKE SOMETHING GOOD</p>
+          <h2 id="contact-title">Have a project in <span>mind?</span></h2>
+          <p>Have a question, an idea, or just want to say hello? My inbox is open.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Let's talk about what you're building.</h3>
+            <p>Tell me a little about your project and I'll get back to you as soon as I can.</p>
+            <a class="contact-card glass-card" href="mailto:your.email@example.com"><span
+                class="contact-icon">@</span><span><small>EMAIL
+                  ME</small><strong>your.email@example.com</strong></span><span class="contact-arrow">↗</span></a>
+            <div class="contact-card glass-card"><span class="contact-icon">⌖</span><span><small>BASED
+                  IN</small><strong>Karachi, Pakistan</strong></span></div>
+            <a class="contact-card glass-card" href="https://github.com/" target="_blank" rel="noreferrer"><span
+                class="contact-icon">⌘</span><span><small>FIND ME ON</small><strong>GitHub</strong></span><span
+                class="contact-arrow">↗</span></a>
+            <p class="contact-placeholder-note">Remember to replace the example email and social links with your own.
+            </p>
+          </div>
+          <form class="contact-form glass-card reveal" id="contact-form">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+            <input type="hidden" name="from_name" value="Nizakat Ali Portfolio">
+            <div class="form-row">
+              <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text"
+                  placeholder="Jane Smith" autocomplete="name" required minlength="2"></div>
+              <div class="form-field"><label for="email">Email address</label><input id="email" name="email"
+                  type="email" placeholder="jane@example.com" autocomplete="email" required></div>
+            </div>
+            <div class="form-field"><label for="subject">Subject</label><input id="subject" name="subject" type="text"
+                placeholder="What would you like to build?" required minlength="3"></div>
+            <div class="form-field"><label for="message">Your message</label><textarea id="message" name="message"
+                rows="5" placeholder="A little about your project..." required minlength="10"></textarea></div>
+            <button class="button button-primary form-submit" type="submit">Send message <span
+                aria-hidden="true">↗</span></button>
+            <p class="form-help">Connect a Web3Forms access key to enable message delivery.</p>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">N</span><span>Nizakat<span
+            class="brand-accent">.</span></span></a>
+      <p>Designed with intention. Built with <span class="footer-heart">♥</span> and a little caffeine.</p>
+      <div class="footer-right"><span>© <span id="current-year"></span> Nizakat Ali</span><a class="back-to-top"
+          href="#home" aria-label="Back to top">↑</a></div>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>
