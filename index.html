@@ -528,8 +528,9 @@ developer.<span class="code-yellow">create</span>();<span class="code-cursor">_<
             <p class="contact-placeholder-note">Remember to replace the example email and social links with your own.
             </p>
           </div>
-          <form class="contact-form glass-card reveal" id="contact-form">
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+          <form class="contact-form glass-card reveal" id="contact-form"
+            action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1d7c4461-7a43-44f1-87e2-1dc45411956e">
             <input type="hidden" name="from_name" value="Nizakat Ali Portfolio">
             <div class="form-row">
               <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text"
@@ -543,7 +544,7 @@ developer.<span class="code-yellow">create</span>();<span class="code-cursor">_<
                 rows="5" placeholder="A little about your project..." required minlength="10"></textarea></div>
             <button class="button button-primary form-submit" type="submit">Send message <span
                 aria-hidden="true">↗</span></button>
-            <p class="form-help">Connect a Web3Forms access key to enable message delivery.</p>
+            <p class="form-help">Your message will be sent securely.</p>
             <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
           </form>
         </div>

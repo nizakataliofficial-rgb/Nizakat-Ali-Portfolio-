@@ -226,8 +226,8 @@
     if (!form.reportValidity()) return;
 
     const accessKey = form.elements.namedItem("access_key").value.trim();
-    if (!accessKey || accessKey === "YOUR_WEB3FORMS_ACCESS_KEY") {
-      const message = "Add your Web3Forms access key to the contact form before sending.";
+    if (!accessKey) {
+      const message = "The contact form is not configured. Please try again later.";
       formStatus.textContent = message;
       showToast(message, true);
       return;
@@ -237,7 +237,7 @@
     submitButton.disabled = true;
     submitButton.innerHTML = "Sending…";
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch(form.action, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(Object.fromEntries(new FormData(form)))
