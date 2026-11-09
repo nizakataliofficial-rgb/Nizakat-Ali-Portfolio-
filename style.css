@@ -136,7 +136,7 @@ html[data-theme="light"] .theme-icon-moon { display: block; }
 .section-heading > p:last-child { margin: 12px 0 0; color: var(--muted); font-size: 13px; }
 .about-grid { display: grid; grid-template-columns: .82fr 1.18fr; align-items: center; gap: 75px; }
 .about-art { position: relative; display: grid; min-height: 375px; place-items: center; overflow: hidden; border-radius: 20px; background: radial-gradient(ellipse at 50% 70%, rgba(56, 189, 248, .1), transparent 58%), var(--surface); }
-.avatar-frame { position: relative; z-index: 1; display: grid; width: 214px; height: 255px; align-items: end; overflow: hidden; border: 1px solid var(--line); border-radius: 46% 46% 22px 22px; background: linear-gradient(145deg, rgba(56, 189, 248, .13), rgba(129, 140, 248, .16)); }
+.avatar-frame { position: relative; z-index: 1; display: grid; width: 214px; height: 214px; align-items: end; overflow: hidden; border: 1px solid var(--line); border-radius: 50%; background: linear-gradient(145deg, rgba(56, 189, 248, .13), rgba(129, 140, 248, .16)); }
 .avatar-caption { position: absolute; z-index: 2; right: 12px; bottom: 12px; left: 12px; padding: 8px; border: 1px solid rgba(255, 255, 255, .12); border-radius: 8px; background: rgba(15, 23, 42, .68); color: #e7eefb; font-family: var(--font-mono); font-size: 9px; text-align: center; backdrop-filter: blur(8px); }
 .avatar-orbit { position: absolute; width: 310px; height: 310px; border: 1px dashed color-mix(in srgb, var(--accent) 24%, transparent); border-radius: 50%; }
 .avatar-orbit-b { width: 260px; height: 260px; border-style: solid; border-color: color-mix(in srgb, var(--accent-secondary) 22%, transparent); }
